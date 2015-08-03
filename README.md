@@ -16,7 +16,12 @@ To run your own raffle:
 
     **NOTE:** You cannot do this for past meetups - so be sure to export this list the day of your event (which is probably when you want to run the raffle anyway)
 1. Open the `.xls` file Meetup provides and re-save it as a `.csv` file using an application like [Excel](https://products.office.com/en-us/excel) or [Numbers](https://www.apple.com/mac/numbers/).
-1. Clone this repository - or just [download the raffle.py file](https://github.com/django-district/meetup-raffler/blob/master/raffler.py)
+1. Clone this repository - or just download the `raffle.py` file with `curl`:
+
+    ```
+    curl -O https://raw.githubusercontent.com/django-district/meetup-raffler/master/raffle.py
+    ```
+
 1. Open a terminal session and run this command:
 
     ```
